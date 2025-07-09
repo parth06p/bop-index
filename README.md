@@ -1,4 +1,4 @@
-#BOP Index
+# BOP Index
 # Predicting the 'Bop Index' for Songs on Spotify
 
 ## Introduction and Problem
@@ -45,4 +45,14 @@ The formula to calculate MSE is:
 🔗 [Learn more on Wikipedia](https://en.wikipedia.org/wiki/Mean_squared_error)
 
 In simple terms, MSE is calculated as the **average of the squared differences** between predicted and actual target variable values.
+
+# Submission Format
+For each ID in the test set, you must predict a probability for the target variable. The file should contain a header and have the following format:
+ID,target
+2,0
+5,0
+6,0
+etc.
+Make sure the file is a valid **CSV** file (`.csv`) and matches this format exactly for proper evaluation.
+
 
