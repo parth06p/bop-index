@@ -38,9 +38,8 @@ It measures the **average magnitude of the errors** between predicted values and
 
 The formula to calculate MSE is:
 
-\[
-\text{MSE} = \frac{1}{n} \sum_{i=1}^{n}(y_i - \hat{y}_i)^2
-\]
+MSE = (1/n) * Σ (yᵢ - ŷᵢ)²  for i = 1 to n
+
 
 🔗 [Learn more on Wikipedia](https://en.wikipedia.org/wiki/Mean_squared_error)
 
